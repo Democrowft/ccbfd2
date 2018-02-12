@@ -1,1 +1,1 @@
-worker: node ping-pong.js
+worker: node clear-messages.js
