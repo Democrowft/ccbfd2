@@ -5,9 +5,6 @@
 // import the discord.js module
 const Discord = require('discord.js');
 
-// create an instance of a Discord Client, and call it bot
-const bot = new Discord.Client();
-
 // the token of your bot - https://discordapp.com/developers/applications/me
 const token = 'NDEyNjMyNDQ4MTQ5NDg3NjE3.DWNFbg.Wh1OCFFS9OJyRbuaqFx0JKutJxw';
 
@@ -27,4 +24,4 @@ bot.on('message', message => {
 });
 
 // log our bot in
-bot.login(token);
+client.login(process.env.BOT_TOKEN);
