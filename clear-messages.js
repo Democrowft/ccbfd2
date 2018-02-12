@@ -14,7 +14,7 @@ const bot = new Discord.Client();
 // Token of my bot
 const token = 'NDEyNjQ3NjA0MTA3NjA4MDc1.DWNTjA.hnb4_k4sVTsAfcz-GIbl5X1ZXus';
 
-cbot.on('ready', () => {
+bot.on('ready', () => {
   console.log('ClearMessagesBot is Ready!');
   bot.on('message', message => {
     if (message.content == CLEAR_MESSAGES) {
