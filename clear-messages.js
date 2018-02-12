@@ -14,9 +14,9 @@ const bot = new Discord.Client();
 // Token of my bot
 const token = 'NDEyNjQ3NjA0MTA3NjA4MDc1.DWNTjA.hnb4_k4sVTsAfcz-GIbl5X1ZXus';
 
-client.on('ready', () => {
+cbot.on('ready', () => {
   console.log('ClearMessagesBot is Ready!');
-  client.on('message', message => {
+  bot.on('message', message => {
     if (message.content == CLEAR_MESSAGES) {
 
       // Check the following permissions before deleting messages:
