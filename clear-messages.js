@@ -9,7 +9,7 @@
 const CLEAR_MESSAGES = '!clearMessages';
 
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const client = new Discord.Client();
 
 bot.on('ready', () => {
   console.log('ClearMessagesBot is Ready!');
