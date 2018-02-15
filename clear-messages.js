@@ -11,9 +11,9 @@ const CLEAR_MESSAGES = '!clearMessages';
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-bot.on('ready', () => {
+client.on('ready', () => {
   console.log('ClearMessagesBot is Ready!');
-  bot.on('message', message => {
+  client.on('message', message => {
     if (message.content == CLEAR_MESSAGES) {
 
       // Check the following permissions before deleting messages:
