@@ -5,9 +5,9 @@
   "engines": {
     "node": "6.7.0"
   },
-  "main": "clear-messages.js",
+  "main": "ping-pong.js",
   "scripts": {
-    "start": "node clear-messages.js"
+    "start": "node ping-pong.js"
   },
   "dependencies": {
     "discord.js": "9.3.x"
